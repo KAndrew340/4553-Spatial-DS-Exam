@@ -1,0 +1,24 @@
+Inserted : 11,11
+Inserted : 22,22
+Inserted : 33,33
+Inserted : 44,44
+Inserted : 55,55
+Inserted : 66,66
+Inserted : 77,77
+Inserted : 88,88
+Inserted : 99,99
+Inserted : 100,100
+Level :  0
+Root :  < [7, 39] None >
+Level :  1
+node :  < [7, 39] None >
+Level :  2
+node :  < [7, 58] < [7, 39] None > >
+Level :  3
+node :  < [49, 82] < [7, 58] < [7, 39] None > > >
+Level :  4
+node :  < [99, 30] < [49, 82] < [7, 58] < [7, 39] None > > > >
+Level :  5
+node :  < [99, 99] < [99, 30] < [49, 82] < [7, 58] < [7, 39] None > > > > >
+Level :  6
+node :  < [100, 100] < [99, 99] < [99, 30] < [49, 82] < [7, 58] < [7, 39] None > > > > > >

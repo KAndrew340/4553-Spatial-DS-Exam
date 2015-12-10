@@ -30,8 +30,12 @@ class BinaryTree:
 
     def search(self, k):
         node = self.root
+        level = 0
+        print "Level : ", level
         print "Root : ", node
         while node != None:
+            level += 1
+            print "Level : ", level
             print "node : ", node
             if node.key == k:
                 return node
