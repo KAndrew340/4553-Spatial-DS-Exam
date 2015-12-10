@@ -6,7 +6,7 @@ class TreeNode:
         self.left = None
         self.right = None
         self.p = None
-        
+
     def __repr__(self):
         return "< %s %s >" % (self.key,self.p)
 
@@ -30,11 +30,14 @@ class BinaryTree:
 
     def search(self, k):
         node = self.root
+        print "Root : ", node
         while node != None:
+            print "node : ", node
             if node.key == k:
                 return node
             if node.key > k:
                 node = node.left
+                print "node: ", node
             else:
                 node = node.right
         return None
@@ -117,14 +120,26 @@ class BinaryTree:
             node.p.right = newnode
         if newnode != None:
             newnode.p = node.p
-            
+
 if __name__ == "__main__":
 
     B = BinaryTree();
-    
+
+    #inserts 100 random values
     for i in range(100):
-        B.insert(random.randint(1,100))
-    
+        B.insert([random.randint(1,100), random.randint(1,100)] )
+
+    #inserts: [11,11],[22,22],[33,33],[44,44],[55,55],[66,66],[77,77],[88,88],[99,99]
+    for i in range (1,10):
+        B.insert([i*11, i*11])
+        print ("Inserted : " + str(i*11) + "," + str(i*11))
+
+    #inserts: [100,100]
+    B.insert([100,100])
+    print ("Inserted : " + str(100) + "," + str(100))
+
+    B.search([100,100])
+
     """If I wanted to insert pairs of numbers"""
     """
     for i in range(10):
@@ -134,4 +149,3 @@ if __name__ == "__main__":
             B.insert([r1,r2])
             print (r1,r2)
    """
-

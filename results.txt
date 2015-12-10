@@ -1,0 +1,16 @@
+Inserted : 11,11
+Inserted : 22,22
+Inserted : 33,33
+Inserted : 44,44
+Inserted : 55,55
+Inserted : 66,66
+Inserted : 77,77
+Inserted : 88,88
+Inserted : 99,99
+Inserted : 100,100
+Root :  < [95, 87] None >
+node :  < [95, 87] None >
+node :  < [100, 29] < [95, 87] None > >
+node :  < [100, 35] < [100, 29] < [95, 87] None > > >
+node :  < [100, 47] < [100, 35] < [100, 29] < [95, 87] None > > > >
+node :  < [100, 100] < [100, 47] < [100, 35] < [100, 29] < [95, 87] None > > > > >
